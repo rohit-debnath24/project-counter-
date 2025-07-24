@@ -34,6 +34,7 @@ const remValue=()=>{
        onClick={addValue}>
          add value: {count}</button>
       <br/>
+      {/* limited to 20 */}
       <button
       onClick={remValue}>remove value :{count} </button>
       
